@@ -25,3 +25,4 @@ X:\Files\dev\code\NarinBot\NarinBOT\obj\Debug\net6.0\refint\NarinBOT.dll
 X:\Files\dev\code\NarinBot\NarinBOT\obj\Debug\net6.0\NarinBOT.pdb
 X:\Files\dev\code\NarinBot\NarinBOT\obj\Debug\net6.0\NarinBOT.genruntimeconfig.cache
 X:\Files\dev\code\NarinBot\NarinBOT\obj\Debug\net6.0\ref\NarinBOT.dll
+X:\Files\dev\code\NarinBot\NarinBOT\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
