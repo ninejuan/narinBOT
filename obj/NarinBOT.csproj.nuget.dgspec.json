@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "X:\\Files\\dev\\code\\NarinBot\\NarinBOT\\NarinBOT.csproj": {}
+    "X:\\Files\\narinBOT-d489af586bc5642d3f5986f029377dec95740e10\\narinBOT-d489af586bc5642d3f5986f029377dec95740e10\\NarinBOT.csproj": {}
   },
   "projects": {
-    "X:\\Files\\dev\\code\\NarinBot\\NarinBOT\\NarinBOT.csproj": {
+    "X:\\Files\\narinBOT-d489af586bc5642d3f5986f029377dec95740e10\\narinBOT-d489af586bc5642d3f5986f029377dec95740e10\\NarinBOT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "X:\\Files\\dev\\code\\NarinBot\\NarinBOT\\NarinBOT.csproj",
+        "projectUniqueName": "X:\\Files\\narinBOT-d489af586bc5642d3f5986f029377dec95740e10\\narinBOT-d489af586bc5642d3f5986f029377dec95740e10\\NarinBOT.csproj",
         "projectName": "NarinBOT",
-        "projectPath": "X:\\Files\\dev\\code\\NarinBot\\NarinBOT\\NarinBOT.csproj",
+        "projectPath": "X:\\Files\\narinBOT-d489af586bc5642d3f5986f029377dec95740e10\\narinBOT-d489af586bc5642d3f5986f029377dec95740e10\\NarinBOT.csproj",
         "packagesPath": "C:\\Users\\juanj\\.nuget\\packages\\",
-        "outputPath": "X:\\Files\\dev\\code\\NarinBot\\NarinBOT\\obj\\",
+        "outputPath": "X:\\Files\\narinBOT-d489af586bc5642d3f5986f029377dec95740e10\\narinBOT-d489af586bc5642d3f5986f029377dec95740e10\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -47,10 +47,6 @@
             "Discord.Net": {
               "target": "Package",
               "version": "[3.5.0, )"
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[6.0.0, )"
             }
           },
           "imports": [
