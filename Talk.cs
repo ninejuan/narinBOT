@@ -59,7 +59,15 @@ namespace NarinBOT
             "뭐 먹었어?")]
         public async Task what_i_ate()
         {
+            string msg = "나? 냉면 먹었어!,아직 아무것도 안 먹었어ㅠㅠ,김밥 먹었어!,그냥 미역국 먹었어!,배가 안 고파!";
+            // himsg 스트링에 원하는 인사말 추가하시면 됩니다.
+            string[] text = msg.Split(',');
+            Random random = new Random();
 
+            int index = random.Next(text.Length);
+
+            //ModuleBase를 상속하면 Context 변수를 통해 답장을 보낼 수 있다. 
+            await Context.Channel.SendMessageAsync(text[index]);
         }
     }
 }
