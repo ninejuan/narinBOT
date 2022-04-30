@@ -75,7 +75,7 @@ namespace NarinBOT
             var userid = Context.Guild.GetUser(user.Id);
             userid.KickAsync();
         }
-        [Command("kick")]
+        /*[Command("kick")]
         [RequireBotPermission(GuildPermission.KickMembers)]
         public async Task KickAsync(IGuildUser user)
         {
@@ -108,7 +108,8 @@ namespace NarinBOT
 
                     .WithCurrentTimestamp()
                     .WithColor(new Color(54, 57, 62));
+                await Context.Channel.SendMessageAsync("하이");
             }
-        }
+        }*/
     }
 }
