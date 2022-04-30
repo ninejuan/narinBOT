@@ -58,7 +58,23 @@ namespace NarinBOT
             Embed embed = EmbedBuilder.Build();
             await ReplyAsync(embed: embed);
         }
-        [Command("kick")]
+        [Command("추방")]
+        [RequireUserPermission(GuildPermission.KickMembers, ErrorMessage = "권한이 없어! / You don't Have Permission!")]
+        public async Task Kick(IGuildUser user = null)
+        {
+            if (user == null)
+            {
+                await Context.Channel.SendMessageAsync("유저를 지정해줘!");
+                return;
+            }
+            if (user == Context.User)
+            {
+                await Context.Channel.SendMessageAsync("추방!");
+            }
+            await user.KickAsync();
+            await Context.Channel.SendMessageAsync("킥 완료!");
+        }
+        /*[Command("kick")]
         public async Task KickMember(SocketGuildUser user = null, string reason = null)
         {
             if (user == null)
@@ -74,7 +90,7 @@ namespace NarinBOT
             }
             var userid = Context.Guild.GetUser(user.Id);
             userid.KickAsync();
-        }
+        }*/
         /*[Command("kick")]
         [RequireBotPermission(GuildPermission.KickMembers)]
         public async Task KickAsync(IGuildUser user)

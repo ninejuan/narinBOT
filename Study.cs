@@ -21,5 +21,15 @@ namespace NarinBOT
 
             await Context.Channel.SendMessageAsync(" ", components: button);
         }
+        [Command("멘션도배")]
+        public async Task Mention()
+        {
+            int sec = 0;
+            while (sec < 31) {
+                await Context.Channel.SendMessageAsync(Context.Message.Author.Mention);
+                sec++;
+                // System.Threading.Thread.Sleep(300);
+                    }
+        }
     }
 }
